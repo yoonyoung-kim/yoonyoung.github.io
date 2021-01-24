@@ -1,0 +1,210 @@
+/*******HOMEPAGE******/
+.homepageblocks{
+
+    padding-left: 20px;   
+}
+
+
+
+/*INTRODUCTION*/
+
+
+.homepageblock-intro{
+
+}
+
+
+/*WORK ON THE HOMEPAGE*/
+
+
+.homepage-lineblocks{
+    border-bottom: 1px solid rgba(0, 0, 0, .9);
+    
+    padding-top: 50px;
+}
+
+.projectdividers{
+    height:150px;
+}
+
+
+.projectdividerlines{
+    border-bottom: 1px solid rgba(0, 0, 0, .9);
+}
+
+
+.needtoinsertaline{
+    height: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, .9);
+}
+
+
+.disappearingline{
+    border-bottom: 1px solid rgba(0, 0, 0, .9);
+}
+
+@media screen and (max-width:768px) {  
+
+    
+    h3.projectheaders{
+        display:none;
+    }
+    
+    .desktophomepageprojects{
+        display: none;
+    }
+    
+        .addingaline{
+        border-bottom: 1px solid rgba(0, 0, 0, .9);
+    }
+    
+}
+
+
+@media screen and (min-width:768px) {
+
+}
+
+.themed-grid-col {    
+}
+
+.themed-container {
+  border: 1px solid rgba(0, 0, 0, .2);
+}
+
+
+img.homepageprojectimg{
+    width: 100%;
+}
+
+
+
+a.viewproject{
+    color: 	#f05151;
+    text-decoration: underline;
+}
+
+
+
+/*******TYPEFACES AND FONT ORGANIZATION******/
+.homepage-labels{
+    color:#222;
+}
+
+h2.homepage-labels{
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+h2.introduction{
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h3.introduction{
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 40px;
+}
+
+
+h3.projectheaders{
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+h2.projecttype2{
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 40px;
+    margin-top:10px;  
+    padding-top:15px;
+}
+
+
+h2.projecttype{
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-right: 40px;
+    margin-top:10px;
+}
+
+h2.projecttitle{
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top:10px;
+}
+
+
+h3.archivetext{
+   color: black; 
+}
+
+
+h2.viewprojectclick{
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:-9px;
+
+-2}
+
+
+
+i.material-icons{
+    color: blue;
+    padding-bottom: 2dp;
+}
+
+
+
+h3.archivetext:link{
+    text-decoration:none;
+}
+
+h3.archivelink:visited{
+    text-decoration:none;
+}
+
+h3.archivetext:hover{
+   color: #f05151;
+   text-decoration: none;
+    text-decoration-color: #f05151;
+    text-decoration-style: wavy;
+}
+
+
+
+
+
+.custom-cur {
+  cursor: url('/images/droplet.svg');
+}
+
+/* With a .cur fallback */
+.custom-cur {
+  cursor: url('/images/droplet.svg'),
+  url('/images/droplet.cur');
+}
+
+/* With a custom hotspot */
+.custom-cur {
+  cursor: url('/images/droplet.svg') 10 12;
+}
+
+/* With a non-custom fallback: */
+.custom-cur {
+  cursor: url('/images/droplet.svg'),
+  move;
+}
