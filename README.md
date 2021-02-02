@@ -1,2 +1,0 @@
-# yoonyoung.github.io
-pofo

@@ -1,7 +1,7 @@
 /*******HOMEPAGE******/
 .homepageblocks{
-    padding-top: 6%;
-    padding-left: 40px;   
+
+    padding-left: 20px;   
 }
 
 
@@ -10,16 +10,11 @@
 
 
 .homepageblock-intro{
-    padding-top: 150px;
+
 }
 
 
 /*WORK ON THE HOMEPAGE*/
-
-.homepage-workblocks{
-    padding-left: 40px;
-    margin-top: -16px;
-}
 
 
 .homepage-lineblocks{
@@ -91,51 +86,6 @@ a.viewproject{
 
 
 
-/***MOBILE ADJUSTMENTS**/
-
-@media screen and (min-width:768px){
-    .homepage-workblocks-mobile{
-        display:none;
-    }
-    
-
-}
-
-
-
-.homepage-workblocks-mobile{
-    border-top: 1px solid rgba(0, 0, 0, .9);
-    padding-left:40px;
-    padding-right:40px;
-    padding-top: 40px;
-    margin-top:80px;
-    padding-bottom: 40px;
-    border-bottom: 1px solid rgba(0, 0, 0, .9);
-}
-
-.mobileprojectlift{
-    margin-top: -20px;
-}
-
-.mobileprojectspacers{
-    padding-top: 30px;
-}
-
-.mobileprojectimg{
-    width:100%;
-}
-
-
-
-
-
-/*ARCHIVE - LEAD TO ALL PROJECTS*/
-
-
-
-
-
-
 /*******TYPEFACES AND FONT ORGANIZATION******/
 .homepage-labels{
     color:#222;
@@ -151,13 +101,13 @@ h2.homepage-labels{
 h2.introduction{
     font-family: freight-neo-pro, sans-serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 h3.introduction{
     font-family: freight-neo-pro, sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     margin-right: 40px;
 }
