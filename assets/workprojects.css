@@ -18,8 +18,8 @@ tags, date*/
 
 
 .projectworkblock{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 40px;
     padding-bottom: 30px;
 }
@@ -58,7 +58,7 @@ h1.worktitle{
 
 h1.projecttitle{
     font-family: freight-neo-pro;
-    font-size: 45px;
+    font-size: 32px;
 }
 
 
@@ -192,6 +192,17 @@ h2.archive-categoriesnames{
     .archive-projectblock{
         padding-right: 40px;
     }
+    
+    .projectworkblock{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    
+    
+    
+    
     
 }
 
