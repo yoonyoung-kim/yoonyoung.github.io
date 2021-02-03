@@ -1,4 +1,25 @@
 /*******HOMEPAGE******/
+
+.navbar-spacer{
+    height: 50px;
+}
+
+
+.homepage-block{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, .9);
+}
+
+
+.projectspacer{
+
+    
+}
+
+
 .homepageblocks{
     padding-top: 6%;
     padding-left: 40px;   
@@ -12,6 +33,7 @@
 .homepageblock-intro{
     padding-top: 150px;
 }
+
 
 
 /*WORK ON THE HOMEPAGE*/
@@ -48,6 +70,15 @@
     border-bottom: 1px solid rgba(0, 0, 0, .9);
 }
 
+.imgspacer1{
+    padding-right: 10px;
+}
+
+.imgspacer2{
+    padding-left: 10px;
+    
+}
+
 @media screen and (max-width:768px) {  
 
     
@@ -59,19 +90,22 @@
         display: none;
     }
     
-        .addingaline{
+    .addingaline{
         border-bottom: 1px solid rgba(0, 0, 0, .9);
     }
     
+    
+    .homepage-block{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+
+    }
+    
+    
 }
 
-
-@media screen and (min-width:768px) {
-
-}
-
-.themed-grid-col {    
-}
 
 .themed-container {
   border: 1px solid rgba(0, 0, 0, .2);
@@ -94,6 +128,12 @@ a.viewproject:hover{
 }
 
 /***MOBILE ADJUSTMENTS**/
+
+@media screen and (max-width:768px) {
+    
+    
+}
+
 
 @media screen and (min-width:768px){
     .homepage-workblocks-mobile{

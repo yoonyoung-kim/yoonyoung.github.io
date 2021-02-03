@@ -1,19 +1,5 @@
 /*********NAVIGATION BAR*********/
 
-/*YYK*/
-#mylabel{
-    padding-left: 25px;
-    color: black;
-    font-family: freight-neo-pro;
-    font-size: 18px;
-}
-
-#mylabel a{
-    padding-left: 15px;
-}
-
-
-
 
 #navbar {
     position: fixed; /* Make it stick/fixed */
@@ -24,14 +10,21 @@
     background-color: white;
     border-bottom: 1px solid rgba(0, 0, 0, .9);
     /*overflow: hidden;*/ /*makes the links disappear*/
+        padding-top: 15px;
+        padding-left: 60px;
+        padding-right: 60px;
 
 }
 
 
 /*replacing the horizontal list with the hamburger menu*/
+/*WHEN SCREEN GETS SMALLER AKA MOBILE EXPERIENCE */
+
 @media screen and (max-width:768px) {  
     button.openbtn{
     display:block;
+
+
     }
     #navbarlinks{
         display:none;
@@ -75,6 +68,13 @@
         top: -40px;
 
     }
+    
+    #navbar{
+        padding-left:20px;
+        padding-right: 20px;
+    }
+    
+    
 }
 
 
@@ -85,28 +85,38 @@
   float: left;
   display: block;
   color: black;
-  text-align: center;
-    padding-top: 15px;
-padding-left: 15px;
   text-decoration: none;
+    font-family: freight-neo-pro;
+    font-size: 18px;
 }
 
 #navbar a:hover {
     color: 	#f05151;
-    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+
 }
 
 #navbarlinks a{
-    float: left;
+    float: right;
     font-family: freight-neo-pro;
+    font-size: 18px;
+
     
 }
 
-
-
-#navbar a.icon{
-    display: none;
+.bi-circle{
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
 }
+
+
+.bi-circle-fill{
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+
 
 
 /******NAVIGATION BAR - SIDEBAR POP-UP*******/
