@@ -78,6 +78,7 @@ a.viewproject{
 
 a.viewproject:hover{
     color: #f05151;
+    text-decoration: none;
 }
 
 
@@ -104,13 +105,33 @@ h2.introduction{
     font-size: 32px;
 }
 
-h3.introduction{
+h4.project-tag{
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+
+h3.project-title{
+    margin-top: 25px;
+    padding-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, .9);
     font-family: freight-neo-pro, sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    margin-right: 40px;
+
 }
+
+
+h3.home-text{
+    font-family: freight-neo-pro, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;   
+}
+
 
 
 a.intro{
@@ -120,6 +141,7 @@ a.intro{
 
 a.intro:hover{
     color: #f05151;
+    text-decoration: none;
 }
 
 
@@ -163,5 +185,26 @@ h3.archivetext{
 
 
 
+.button {
+  border: 1px solid rgba(0, 0, 0, .9);
+  color: black;
+  padding: 3px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+    border-radius: 25px;
+}
 
+
+
+.button:hover{
+    border: 1px solid black;
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    color: white;
+}
 
