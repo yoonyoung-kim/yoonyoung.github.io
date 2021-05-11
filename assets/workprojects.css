@@ -1,264 +1,286 @@
-/*GENERAL*/
-
-
-/* first thing that surfaces for a project
-title of the project, 
-tags, date*/
-.titleblock{
-    padding-top:50px;
+/*******Work project spacings******/
+.navbar-spacer{
+    height: 65px;
 }
 
-.projectimg{
-    border-top: 1px solid rgba(0, 0, 0, .9);
-}
-
-.projectsectionblock{
-    border-bottom: 1px solid rgba(0, 0, 0, .9);
+.projblock{
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 
-.projectworkblock{
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-}
-
-.projectworkblock-bleed{
-
-}
-
-
-.projectworkblock-img{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.projectcontentblock{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-.projectcontentblock-img{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-
-/*project title*/
-h3.workprojecttype{
-    font-family: freight-neo-pro;
-}
-
-h1.worktitle{
-    font-family: freight-neo-pro;
-}
-
-
-h1.projecttitle{
-    font-family: freight-neo-pro;
-    font-size: 32px;
-}
-
-
-h3.projecttypes{
-    font-family: freight-neo-pro;
-    font-size: 18px;
-
-}
-
-
-/*project details*/
-.workprojectblock-details{
-    padding-left: 40px;
-    margin-bottom: -15px;
-}
-
-h2.projectdetails{
-    font-family: freight-sans-pro;
-    font-family: sans-serif;
-    font-style: normal;
-    font-weight: 400;
+.projblock-content{
+    padding-top: 60px;
+ 
+    /*padding-top:45px;
+    padding-bottom:30px; *//*could change to 15 and with a top border*/
 }
 
 
 
 
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+    
+}
 
-img.projectheaderimg{
+.grid-item {
+    outline: 15px solid white;
+    outline-offset: 0px;
+    text-align: left;
+    background-color: #5E90EA;
+    
+    /*padding:30px;
+    padding-right:45px;
+
+    margin-bottom: 15px;*/
+}
+
+.grid-thirds-container{
+    display:grid;
+    grid-template-columns: 32% 32% 32% ;
+    grid-gap: 2%;
+}
+
+.grid-thirds{
+    text-align: left;
+    /*background-color: #5E90EA;*/
+    background-color: #3877ED;
     width: 100%;
+    padding:15px;
     
 }
 
-img.projectcontentimg{
-    width:100%;
-    margin-bottom: -16px;
+.block-footer{
+    border-top:1.5px solid rgba(0, 0, 0, .9);
 }
 
 
 
 
+/*******imgs*****/
 
-h3.projectdetails-headers{
-    font-family: freight-sans-pro;
-    font-weight: 600;
-    font-size: 16px;
-    padding-top: 10px;
+.fullwidthimg{
+    
+    width: 100%;
+    /*padding-top:15px;*/
+    
     
 }
 
 
-h3.projectdetails-content{
-    font-family: freight-sans-pro;
-    font-weight: 400; 
+
+
+.imgborder{
+    outline: 15px solid white;
+    outline-offset: 0px;
+    margin-top:15px;
+}
+
+
+.img-centertext{
+    position:absolute;
+    top: 40%;
+    left 50%;
+
+    /*padding-left:15%;
+    padding-right:15%;*/
+}
+
+.howmightwe{
+    position:relative;
+    text-align:center;
+    /*margin-bottom:-16px;/*possible delete*/
+}
+
+
+#affinityimgheight{
+ 
+}
+
+
+.img-finaldesign{
+    position:absolute;
+    top: 30%;
+    left: 70%;
+    /*padding-right:2%;*/
+    
+}
+
+
+
+
+
+a{
+    /*color:black;*/
+}
+
+a:hover{
+    color: #f05151;
+    text-decoration: none;
+}
+
+
+/*TYPEFACES*/
+
+h1.project-title{
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    /*padding-top:10px;*/
+}
+
+h2.projecttags{   
+    color: black;
+    border: 1px solid rgba(0, 0, 0, .9);
+    padding: 3px 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 25px;
+    font-family: roboto-mono, monospace;
+    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
+    
 }
 
+p.proj-context{
+    /*padding-right:10px;*/
+}
 
-/*project content*/
-h2.projectleftlabels{
-    font-family: freight-sans-pro;
-    font-weight: 600;
+h2.project-sections{
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 16px;
+    /*padding-top:10px;*/
+    text-transform: uppercase;
 }
 
 
-h4.projectcontent{
-    font-family: freight-neo-pro;
-    color: 	#f05151;
-    margin-bottom: -8px;
-    font-size: 22px;
+p.proj-headers{
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    /*padding-top:10px;*/
+    text-transform: none;
+    
+    max-width: 85%;
 }
 
 
-p.projectcontent{
-    font-family: freight-sans-pro;
+p.proj{
 
-}
-
-
-
-
-
-
-/*ARCHIVE CONTENT*/
-.archivesections{
-    padding-left: 40px;
-    border-bottom: 1px solid rgba(0, 0, 0, .9);  
-    padding-top: 20px;
-} 
-
-.archiverowspacing{
-    padding-top: -10px;
+    font-family: roboto, sans-serif;
+    font-weight: 300;
+    
+    max-width: 85%;
 }
 
 
 
+p.proj-bold{
+    font-family: roboto, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+    max-width: 85%;
+}
 
 
 
-/*archiveEEEEEEE*/
+h2.project-question{
+    /*font-family: roboto-mono, monospace;*/
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
 
-h2.archive-categoriesnames{
-    font-family: freight-neo-pro;
+
+p.howdoesitwork{
+    padding-top:15px;
+    font-family: roboto-mono, monospace;
+    font-weight: 400;
     font-size: 18px;
+    text-align: left;  
 }
 
 
-
-.archive-categories{
-    border-bottom: 1px solid rgba(0, 0, 0, .9);
-}
-
-.archive-projectrows{
-    padding-left: 40px;
-}
-
-.archive-projectblock{
-
+p.column-header{
+    color: white;
+    font-family: roboto-mono, monospace;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    
     
 }
 
-.archive-projectblock-spacer{
+p.column-text{
+    color: white;
+    font-family: roboto-mono, monospace;
+    font-weight: 400;
+    font-size: 14px;
+    text-align:left;
+    
+}
+
+
+p.proj-footer{
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;  
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 
-@media screen and (max-width:768px){
-    .archive-projectblock-spacer{
-        padding-bottom: 0px;
+p.nextproject{
+    text-align: right;
+}
+
+
+
+
+/*MOBILE EXPERIENCE*/
+
+@media screen and (max-width:768px) {  
+
+    .projblock{
+    padding-left: 20px;
+    padding-right: 20px;
     }
-    
-    .archive-projectblock{
-        padding-right: 40px;
-    }
-    
-    .projectworkblock{
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
-    
-    
-    
-    
-    
+
+    .project-blockscontainer{
+
+    padding-left: 10px;
+    padding-right: 10px;
 }
-
-
-
-.archive-projectblock-img{
-   width: 100%; 
-}
-
-
-h2.archive-leftlabels{
-    font-family: freight-sans-pro;
-    font-weight: 600;
-    font-size: 16px;
     
-    padding-top: 20px;
-
+    
+    .grid-thirds-container{
+    display:grid;
+        grid-template-columns: none;
 }
-
-
-h3.archive-projectblock-type{
-    padding-top: 15px;
-    font-family: freight-neo-pro;
-    font-size: 18px;
-}
-
-
-h2.archive-projectblock-title{
-    font-family: freight-neo-pro;
-    font-size: 24px;
+    
+    
+    h2.project-question{
+    /*font-family: roboto-mono, monospace;*/
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
     
 }
-
-
-
-
-
-/*archive buttons*/
-
-#archivecategory {
-    z-index: 99;
-    font-family: freight-neo-pro;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    color: black;
-    cursor: pointer;
-    background-color: white;
-    margin-left: -6px;
-}
-
-#archivecategory:hover {
-    color: red;
-}
-
-
-
-

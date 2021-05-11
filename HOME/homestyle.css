@@ -1,9 +1,19 @@
 /*******HOMEPAGE******/
 
 .navbar-spacer{
-    height: 50px;
+    height: 80px;
 }
 
+.homeblocks{
+    padding-top:30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.homeblocks-project{
+    border-top: 1px solid rgba(0, 0, 0, .9);
+}
 
 .homepage-block{
     padding-left: 60px;
@@ -13,194 +23,128 @@
     border-bottom: 1px solid rgba(0, 0, 0, .9);
 }
 
+.project-divide{
+    border-top: 1.5px solid rgba(0, 0, 0, .9);
+    padding-top: 15px;
+}
 
-.imgspacer1{
+.project-blockscontainer{
+
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.project-blocks{
+    padding-left: 10px;
     padding-right: 10px;
 }
 
-.imgspacer2{
-    padding-left: 10px;
-    
+.project-ind-blocks{
+    /*border: 1.2px solid rgba(0, 0, 0, 1);
+    padding-top: 10px;*/
+    margin-top: 20px;
 }
 
-@media screen and (max-width:768px) {  
-
-    
-    h3.projectheaders{
-        display:none;
-    }
-    
-    .desktophomepageprojects{
-        display: none;
-    }
-    
-    .addingaline{
-        border-bottom: 1px solid rgba(0, 0, 0, .9);
-    }
-    
-    
-    .homepage-block{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 40px;
-        padding-bottom: 30px;
-
-    }
-    
-    .imgspacer1{
-        padding-right: 0px;
-    }
-
-    .imgspacer2{
-        padding-left: 0px;
-        padding-top:15px;
-    }
-    
-    
+.indprojdetails{
+    padding:0px;
 }
-
-
 
 img.homepageprojectimg{
     width: 100%;
 }
 
 
-
-a.viewproject{
-    color: 	black;
-
+.homefooter{
+    padding-bottom: 30px;
+    text-align: right;
 }
 
-a.viewproject:hover{
+
+/*MOBILE EXPERIENCE*/
+
+@media screen and (max-width:768px) {  
+
+    .homeblocks{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    .project-blockscontainer{
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    
+}
+
+
+
+a{
+    /*color:black;*/
+}
+
+a:hover{
     color: #f05151;
     text-decoration: none;
 }
 
 
-
-
-
-
-
-/*******TYPEFACES AND FONT ORGANIZATION******/
-.homepage-labels{
-    color:#222;
+/*******NEW 2.0TYPEFACES AND FONT ORGANIZATION******/
+h2.homepageintro{
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    max-width: 75%
 }
 
-h2.homepage-labels{
-    font-family: freight-sans-pro, sans-serif;
-    font-weight: 600;
+h2.homepagelinks{ 
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 16px;
-    
 }
 
-h2.introduction{
-    font-family: freight-neo-pro, sans-serif;
+
+h2.projectdivide{
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
-    font-size: 32px;
-}
-
-h4.project-tag{
-    font-family: freight-sans-pro, sans-serif;
-    font-weight: 500;
-    font-size: 13px;
-    padding-top: 5px;
+    font-style: normal;
+    font-size: 16px;  
+    margin-bottom:-16px;
 }
 
 
-h3.project-title{
-    margin-top: 25px;
-    padding-top: 10px;
-    border-top: 1px solid rgba(0, 0, 0, .9);
-    font-family: freight-neo-pro, sans-serif;
+/*** type for project-ind-blocks**/
+
+h1.projecttitle{
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
+    font-style: normal;
+    font-size: 16px;
+    padding-top:10px;
 }
 
 
-h3.home-text{
-    font-family: freight-neo-pro, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;   
-}
-
-
-
-a.intro{
-    color: black;
-    
-}
-
-a.intro:hover{
+h1.projecttitle:hover{
     color: #f05151;
+}
+
+
+h2.projecttags{   
+    color: black;
+    border: 1px solid rgba(0, 0, 0, .9);
+    padding: 3px 12px;
+    text-align: left;
     text-decoration: none;
-}
-
-
-h3.projectheaders{
-    font-family: freight-neo-pro, sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-
-
-h2.projecttype2{
-    font-family: freight-neo-pro, sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    margin-right: 40px;
-    margin-top:10px;  
-    padding-top:15px;
-}
-
-
-h2.projecttype{
-    font-family: freight-neo-pro, sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    margin-right: 40px;
-    margin-top:10px;
-}
-
-h2.projecttitle{
-    font-family: freight-neo-pro, sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    margin-top:10px;
-}
-
-
-h3.archivetext{
-   color: black; 
-}
-
-
-
-.button {
-  border: 1px solid rgba(0, 0, 0, .9);
-  color: black;
-  padding: 3px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin-top: 10px;
-  cursor: pointer;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 0px;
+    margin-right: 8px;
     border-radius: 25px;
+    font-family: roboto-mono, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    
 }
-
-
-
-.button:hover{
-    border: 1px solid black;
-    background-color: black;
-    border: none;
-    text-decoration: none;
-    color: white;
-}
-

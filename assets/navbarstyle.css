@@ -1,19 +1,33 @@
+body{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
 /*********NAVIGATION BAR*********/
 
 
 #navbar {
+    max-width: 1200px;
     position: fixed; /* Make it stick/fixed */
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
     height:50px;
     background-color: white;
-    border-bottom: 1px solid rgba(0, 0, 0, .9);
+ /*border-bottom: 1.5px solid rgba(0, 0, 0, .9);*/
     /*overflow: hidden;*/ /*makes the links disappear*/
         padding-top: 15px;
         padding-left: 60px;
         padding-right: 60px;
 
+}
+
+#navbar-border{
+    padding-bottom: 10px;
+        border-bottom: 1.5px solid rgba(0, 0, 0, .9);
 }
 
 
@@ -86,8 +100,10 @@
   display: block;
   color: black;
   text-decoration: none;
-    font-family: freight-neo-pro;
-    font-size: 18px;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 }
 
 #navbar a:hover {
@@ -97,8 +113,10 @@
 
 #navbarlinks a{
     float: right;
-    font-family: freight-neo-pro;
-    font-size: 18px;
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
 
     
 }
