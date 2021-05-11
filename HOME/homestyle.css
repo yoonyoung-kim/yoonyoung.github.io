@@ -60,22 +60,7 @@ img.homepageprojectimg{
 }
 
 
-/*MOBILE EXPERIENCE*/
 
-@media screen and (max-width:768px) {  
-
-    .homeblocks{
-    padding-left: 20px;
-    padding-right: 20px;
-    }
-
-    .project-blockscontainer{
-
-    padding-left: 10px;
-    padding-right: 10px;
-}
-    
-}
 
 
 
@@ -146,5 +131,31 @@ h2.projecttags{
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
+    
+}
+
+
+/*MOBILE EXPERIENCE*/
+
+@media screen and (max-width:768px) {  
+
+    .homeblocks{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    .project-blockscontainer{
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    
+    h2.homepageintro{
+    font-family: aktiv-grotesk-extended, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    max-width: 100%
+}
     
 }
