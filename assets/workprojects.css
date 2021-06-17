@@ -26,6 +26,7 @@
 }
 
 .grid-item {
+    
     outline: 15px solid white;
     outline-offset: 0px;
     text-align: left;
@@ -45,10 +46,11 @@
 
 .grid-thirds{
     text-align: left;
-    /*background-color: #5E90EA;*/
-    background-color: #3877ED;
+    /*background-color: #5E90EA;
+    background-color: #3877ED;*/
     width: 100%;
     padding:15px;
+    border:1px solid rgba(0, 0, 0, .9);
     
 }
 
@@ -216,7 +218,7 @@ p.howdoesitwork{
 
 
 p.column-header{
-    color: white;
+    color: black;
     font-family: roboto-mono, monospace;
     font-weight: 400;
     font-size: 18px;
@@ -226,7 +228,7 @@ p.column-header{
 }
 
 p.column-text{
-    color: white;
+    color: black;
     font-family: roboto-mono, monospace;
     font-weight: 400;
     font-size: 14px;
