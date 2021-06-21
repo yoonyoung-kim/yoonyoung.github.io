@@ -127,7 +127,7 @@ a:hover{
 /*TYPEFACES*/
 
 h1.project-title{
-    font-family: aktiv-grotesk-extended, sans-serif;
+    font-family: roc-grotesk, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
@@ -156,8 +156,8 @@ p.proj-context{
 }
 
 h2.project-sections{
-    font-family: aktiv-grotesk-extended, sans-serif;
-    font-weight: 700;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 600;
     font-style: normal;
     font-size: 16px;
     /*padding-top:10px;*/
@@ -166,8 +166,8 @@ h2.project-sections{
 
 
 p.proj-headers{
-    font-family: aktiv-grotesk-extended, sans-serif;
-    font-weight: 700;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 600;
     font-style: normal;
     font-size: 16px;
     /*padding-top:10px;*/
@@ -197,15 +197,7 @@ p.proj-bold{
 
 
 
-h2.project-question{
-    /*font-family: roboto-mono, monospace;*/
-    font-family: aktiv-grotesk-extended, sans-serif;
-    font-weight: 500;
-    font-size: 24px;
-    text-align: center;
-    padding-left: 12.5%;
-    padding-right: 12.5%;
-}
+
 
 
 p.howdoesitwork{
@@ -238,7 +230,7 @@ p.column-text{
 
 
 p.proj-footer{
-    font-family: aktiv-grotesk-extended, sans-serif;
+    font-family: roc-grotesk, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 16px;  
@@ -252,6 +244,16 @@ p.nextproject{
 
 
 
+/*under the max width*/
+@media screen and (max-width:1200px) {  
+    #navbar{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+}
+
+
 
 /*MOBILE EXPERIENCE*/
 
@@ -262,6 +264,16 @@ p.nextproject{
     padding-right: 20px;
     }
 
+    .project-body{
+        width: 90%;
+        padding-left: 5%;
+    }
+    
+    .body-img{
+        
+    }
+    
+    
     .project-blockscontainer{
 
     padding-left: 10px;
@@ -277,7 +289,7 @@ p.nextproject{
     
     h2.project-question{
     /*font-family: roboto-mono, monospace;*/
-    font-family: aktiv-grotesk-extended, sans-serif;
+    font-family: roc-grotesk, sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-align: left;
@@ -286,3 +298,87 @@ p.nextproject{
 }
     
 }
+
+
+
+
+/*******JUNE 19th NEW PROJECT LAYOUT UGH******/
+
+.project-body{
+    width: 90%;
+
+}
+
+.project-chunks{
+    padding-top: 60px;
+}
+
+.body-img{
+    
+}
+
+.project-header{
+    padding-top: 160px;
+}
+
+
+.project-footer{
+    padding-top: 60px;
+}
+
+h1.project-title{
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+
+    text-transform: uppercase;
+}
+
+
+h2.project-sectional{
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    opacity: 60%;
+    letter-spacing: 1px;
+    
+}
+
+h2.project-part{
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+
+}
+
+p.project-content{
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+
+}
+
+
+p.goal{
+    width: 75%;
+}
+
+
+h2.project-question{
+    /*font-family: roboto-mono, monospace;*/
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+
+
+

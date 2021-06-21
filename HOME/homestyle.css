@@ -6,21 +6,6 @@
 
 .homeblocks{
     padding-top:30px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
-
-
-.homeblocks-project{
-    border-top: 1px solid rgba(0, 0, 0, .9);
-}
-
-.homepage-block{
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    border-bottom: 1px solid rgba(0, 0, 0, .9);
 }
 
 .project-divide{
@@ -28,41 +13,85 @@
     padding-top: 15px;
 }
 
-.project-blockscontainer{
-
-    padding-left: 50px;
-    padding-right: 50px;
+.project-grid{
+    display: grid;
+      grid-template-columns: auto auto auto;
+      grid-column-gap: 15px;
+      grid-row-gap: 30px;
+      padding: 0px;
 }
 
 .project-blocks{
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
-.project-ind-blocks{
-    /*border: 1.2px solid rgba(0, 0, 0, 1);
-    padding-top: 10px;*/
-    margin-top: 20px;
 }
 
 .indprojdetails{
-    padding:0px;
+
 }
 
 img.homepageprojectimg{
     width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, .9);
+}
+
+
+.viewprojectbutton{
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    padding: 5px 10px;
+    color: black;
+    
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+
+.viewprojectbutton:hover{
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, .9);
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    background-color: #f05151;
+    color: white;
+}
+
+.viewprojectbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.viewprojectbutton span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -2px;
+  transition: 0.5s;
+}
+
+.viewprojectbutton:hover span {
+  padding-right: 2px;
+}
+
+.viewprojectbutton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
 .homefooter{
     padding-bottom: 30px;
-    text-align: right;
+
 }
 
 
-
-
-
+/*some link details*/
 
 a{
     color:black;
@@ -74,36 +103,49 @@ a:hover{
 }
 
 
+
+
+
 /*******NEW 2.0TYPEFACES AND FONT ORGANIZATION******/
 h2.homepageintro{
-    font-family: aktiv-grotesk-extended, sans-serif;
+    font-family: roc-grotesk, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
     max-width: 75%
 }
 
-h2.homepagelinks{ 
-    font-family: aktiv-grotesk-extended, sans-serif;
+p.homepageintro{
+    font-family: roc-grotesk, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;
+    font-size: 18px;
+    max-width: 66%
+    
+}
+
+h2.homepagelinks{ 
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
 }
 
 
 h2.projectdivide{
-    font-family: aktiv-grotesk-extended, sans-serif;
+    font-family: roc-grotesk, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 16px;  
+    font-size: 18px;  
     margin-bottom:-16px;
+    max-width: 75%;
 }
 
 
 /*** type for project-ind-blocks**/
 
 h1.projecttitle{
-    font-family: aktiv-grotesk-extended, sans-serif;
+    font-family: roc-grotesk, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -134,24 +176,51 @@ h2.projecttags{
     
 }
 
+p{
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+
+/*Less than max-width*/
+@media screen and (max-width:1200px) {  
+    body{
+        width: 90%;
+        
+    }
+
+}
+
+
+
+
 
 /*MOBILE EXPERIENCE*/
 
 @media screen and (max-width:768px) {  
 
     .homeblocks{
-    padding-left: 20px;
-    padding-right: 20px;
+
     }
 
+    
+    .project-grid{
+        display: grid;
+      grid-template-columns: auto;
+        padding:  0px 0px;
+        
+    }
+    
+    
     .project-blockscontainer{
 
-    padding-left: 10px;
-    padding-right: 10px;
 }
     
     h2.homepageintro{
-    font-family: aktiv-grotesk-extended, sans-serif;
+    font-family: roc-grotesk, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 24px;
@@ -160,31 +229,3 @@ h2.projecttags{
     
 }
 
-
-.projectdates{
-    padding-left:15px;
-    border-bottom: 1px solid rgba(0, 0, 0, .9);
-
-}
-
-.projectbox-row{
-    padding-left:10px;
-    padding-right:10px;
-}
-
-
-.projectbox{
-    margin:-.5px;
-    border: 1px solid rgba(0, 0, 0, .9);
-    border-radius: 1px;
-
-    
-
-}
-
-
-.projectbox-titles{
-    padding:15px;
-    border-bottom: 1px solid rgba(0, 0, 0, .9);
-    /*height: 45%;*/
-}
